@@ -32,11 +32,11 @@ print(site3[-4:])'''
 
 
 
-def percent_count(x,y):
-    x = float(x)
-    y = float(y)
-    percent = (x-y)/x*100
-    return percent
+#def percent_count(x,y):
+#    x = float(x)
+#    y = float(y)
+#    percent = (x-y)/x*100
+#    return percent
 
 while True:
     eski_liste = []
