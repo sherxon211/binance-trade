@@ -1,11 +1,11 @@
 from binance.client import Client
+import os
 import time
 from win10toast import ToastNotifier
 
 # api_key ve api_secret bilgilerini içeri aktarma
-all_keys = open("./bilgiler.txt","r").read().splitlines()
-api_key = all_keys[0]
-api_secret = all_keys[1]
+api_key = os.environ.get('binance_key')
+api_secret = os.environ.get('binance_secret')
 
 client = Client(api_key, api_secret)
 
