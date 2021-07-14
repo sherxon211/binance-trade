@@ -43,8 +43,9 @@ print(site3[-4:])'''
 # windows bildirim için
 toaster = ToastNotifier()
 
+print("Program başlatıldı...")
+
 while True:
-    print("Program başlatıldı...")
     eski_liste = []
     yeni_liste = []
 
