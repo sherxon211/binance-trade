@@ -79,7 +79,7 @@ while True:
         endeks = liste1.index(x)
         x = float(x)
         y = float(y)
-        if (y-x)/x*100 >= 6:
+        if (y-x)/x*100 >= 5:
             for e in tokens:
                 if endeks==tokens.index(e):
                     toaster.show_toast("Bilgilendirme",f"{e} tokenini {y} fıyatdan satın alabiliriniz!!!", threaded=True, icon_path=None, duration=5)
