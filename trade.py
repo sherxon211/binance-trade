@@ -9,10 +9,6 @@ api_secret = os.environ.get('binance_secret')
 
 client = Client(api_key, api_secret)
 
-#son 4 harfi alma
-'''site3 = "www.yahoo.com"
-print(site3[-4:])'''
-
 #info = client.get_all_tickers()
 #print(info)
 
@@ -33,7 +29,7 @@ print(site3[-4:])'''
         #f.write("-"*30+">>"+time.strftime('%c')+"\n")
 
 
-
+# ne kadar zam yapıldığını yüzdelik olarak hesaplama
 # def percent_count(x,y):
 #     x = float(x)
 #     y = float(y)
